@@ -1,0 +1,283 @@
+{"Object" : "ObjID46",
+"children": [
+  {
+  "IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188,
+  "DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+  "DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+  "DistancePointsFrontUPTop" : 196.45413868954103, 
+  "DistancePointsTopBack" : 193.69092324282246, 
+  "DistancePointsBackBottom" : 193.74132133601017, 
+  "DistancePointsBottomFrontLP" : 195.9846010561809, 
+  "DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+  "DistancePointsWestTop" : 169.30832118120318, 
+  "DistancePointsEastTop" : 167.17414053502995
+ }
+]}, 
+{"Object" : "ObjID126",  
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID127",
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID128",
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID129",
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID130",
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}, 
+"Object" : "ObjID130",
+"children": [
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID131",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID132",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}, 
+"Object" : "ObjID133",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID134",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID135",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID150",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID191",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID285",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID286",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID410",
+"children": [ 
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID461" ,
+"children": [  
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}, 
+{"Object" : "ObjID463",
+"children": [  
+{
+	"IntersectionEllipsePlaneFrontUPRightCone" : 17.76971920188188, 
+	"DistanceGnomonHoleEdgeAxisEllipse" : 127.65261891396115, 
+	"DistanceGnomonHoleEdgeOrtho" : 127.65010143772567, 
+	"DistancePointsFrontUPTop" : 196.45413868954103, 
+	"DistancePointsTopBack" : 193.69092324282246, 
+	"DistancePointsBackBottom" : 193.74132133601017, 
+	"DistancePointsBottomFrontLP" : 195.9846010561809, 
+	"DistancePointsFrontLPFrontUP" : 195.26283004802454, 
+	"DistancePointsWestTop" : 169.30832118120318, 
+	"DistancePointsEastTop" : 167.17414053502995
+}
+]}
