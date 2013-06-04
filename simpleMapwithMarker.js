@@ -1,4 +1,4 @@
-function simpleMap(filterdata)
+function simpleMapwithMarker(filterdata)
 {
 alert("leaflet "+filterdata.length);
 var svg = d3.select("#simpleMap").append("svg:svg");
