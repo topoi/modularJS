@@ -1,6 +1,6 @@
-function simpleMapwithMarker(filterdata)
+function simpleMapwithMarker(data)
 {
-alert("leafleMarker "+filterdata.length);
+alert("leafleMarker "+data.length);
 var svg = d3.select("#simpleMapwithMarker").append("svg:svg");
 var map = new L.Map('map');
 //var map = L.map('map').setView([51.505, -0.09], 13);
