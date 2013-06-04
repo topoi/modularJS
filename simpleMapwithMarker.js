@@ -1,7 +1,7 @@
 function simpleMapwithMarker(filterdata)
 {
-alert("leaflet "+filterdata.length);
-var svg = d3.select("#simpleMap").append("svg:svg");
+alert("leafleMarker "+filterdata.length);
+var svg = d3.select("#simpleMapwithMarker").append("svg:svg");
 var map = new L.Map('map');
 //var map = L.map('map').setView([51.505, -0.09], 13);
 var appleUrl = 'http://gsp2.apple.com/tile?api=1&style=slideshow&layers=default&lang=en_US&z={z}&x={x}&y={y}&v=9',
