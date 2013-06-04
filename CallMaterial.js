@@ -11,7 +11,7 @@ filterMaterial(material,tag)
  
 tags.filter(function(d){
 tag=d.indexOf(material);  
-    // filtMat[d[0]]=document.getElementById('filterMaterial').innerHTML;
+     filtMat[d[0]]=document.getElementById('filterMaterial').innerHTML;
 }); 
 };
 
