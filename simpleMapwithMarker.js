@@ -17,6 +17,6 @@ var marker = [];
 //########################################
   
 for(i=0;i<data.length;i++){
-    marker[i] = new L.marker([data[i].siteslatitude, data[i].siteslongitude]).addTo(map);               
+    marker[i] = new L.marker([data[i].latitudesites, data[i].longitudesites]).addTo(map);               
 };
 };
