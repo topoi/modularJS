@@ -16,7 +16,7 @@ var marker = [];
 //die die Filterbedingung erfuellen      #
 //########################################
   
-for(i=0;i<filterdata.length;i++){
+for(i=0;i<data.length;i++){
     marker[i] = new L.marker([data[i].siteslatitude, data[i].siteslongitude]).addTo(map);               
 };
 };
