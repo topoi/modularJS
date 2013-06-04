@@ -1,5 +1,7 @@
 function materialSelection(material)
 {
+	
+$('#filterMaterial').show();
 var w = 360,
 h = 250
  
