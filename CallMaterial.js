@@ -8,7 +8,7 @@ activateMat="true";
 
 filterMaterial(material,tag)
 {
- 
+ alert("material");
 tags.filter(function(d){
 tag=d.indexOf(material);  
      filtMat[d[0]]=document.getElementById('filterMaterial').innerHTML;
