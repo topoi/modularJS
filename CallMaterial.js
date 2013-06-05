@@ -1,4 +1,5 @@
 var material="None";
+var tags="None";
 function callMaterial(material,d)
 {
 var svg = d3.select("#callMaterial").append("svg:svg");
