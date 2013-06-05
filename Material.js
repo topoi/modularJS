@@ -77,7 +77,7 @@ var rect = valgroup.selectAll("rect")
 .enter().append("svg:rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
-                            material=list[d.x]; };
+                            material=list[d.x]},
                             tags.filter(function(d){
                             	tag=d.indexOf(material);
                             	if(tag==2) {alert("true")};
