@@ -66,6 +66,35 @@ var label = svg.selectAll("text")
 
 var material="None";
 
+tags.filter(function(d){
+tag=d.indexOf(material);
+};
+
+alert("tag: "+tag);
+
+
+function filterMaterial()
+{
+
+	if(tag == 2) 
+    {	
+		filtMat=true;
+		document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return true;
+    };
+    
+         if(tag!=2)
+    {
+	        filtMat=false;
+	        document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return tue;
+    };	
+	
+	
+};
+
+
+
 // Add a rect for each date.
 var rect = valgroup.selectAll("rect")
 .data(function(d){return d;})
@@ -74,11 +103,9 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             
+                            filterMaterial();
                             
-                            
-			    callMaterial(material);
-			    
-    })
+})
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
