@@ -10,6 +10,5 @@ filterMat(material,tag)
 {
 filtMat[d[0]]=document.getElementById('filterMaterial').innerHTML;
 };
-}); 
 start();
 };
