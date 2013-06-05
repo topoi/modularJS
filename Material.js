@@ -80,10 +80,7 @@ var rect = valgroup.selectAll("rect")
                             material=list[d.x]; 
                             tags.filter(d.indexOf(material));
                             alert("index of material: "+tag);
-                            
-                            
-                             
-                             if(tag==2)
+                            if(tag==2)
                 {	
 		//filtMat=true;
 		document.getElementById('material').innerHTML = true;
