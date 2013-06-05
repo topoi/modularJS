@@ -112,14 +112,17 @@ var rect = valgroup.selectAll("rect")
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
 .attr("width", x.rangeBand());
-};
 
-function filterung()
+function filterung()
 {
 	
 tags.filter(function(d) {
 	alert("hier");
 });
+
+};
+
+
 };
 
 
