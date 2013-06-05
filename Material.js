@@ -110,8 +110,10 @@ var rect = valgroup.selectAll("rect")
 .attr("height", function(d) { return y(d.y); })
 .attr("width", x.rangeBand());
 
+function filterung()
+{
 alert("hier");
+}
 return material;
-
 };
 
