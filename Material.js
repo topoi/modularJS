@@ -93,9 +93,11 @@ function filterung()
 	tags.filter(function(d) {
 	tag=d.indexOf(material);
 	if(tag==2) {
-	alert("true "+material)};
+        document.getElementById('material').innerHTML = true;
+	};
 	if(tag!=2) {
-	alert("false "+material)};
+	document.getElementById('material').innerHTML = false;
+	};
 	
 });
 
