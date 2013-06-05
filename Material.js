@@ -85,10 +85,11 @@ var rect = valgroup.selectAll("rect")
                             	
                             })
                             
-                            
-                          /*  if(tag==2)
-                {	
-		//filtMat=true;
+                            if(tag==2)
+                             {alert("true")}
+                
+                
+		/*//filtMat=true;
 		document.getElementById('material').innerHTML = true;
 	        //return true;
                 };
