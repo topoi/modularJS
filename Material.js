@@ -1,6 +1,8 @@
 function materialSelection(material)
 {
-	
+
+alert("tags in Material" +tags);
+
 $('#filterMaterial').show();
 var w = 360,
 h = 250
@@ -71,6 +73,9 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
+                            
+                            
+                            
 			    callMaterial(material);
 			    
     })
