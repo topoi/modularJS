@@ -66,11 +66,7 @@ var label = svg.selectAll("text")
 
 var material="None";
 
-var crossdata = [{id: 1,tags:[" 1","sphere","marble","1st cent. CE"]}, {id: 2,tags:[" 2","sphere","marble","3rd cent. BCE"]}, {id: 3,tags:[" 3","sphere","tufa-like",""]}, {id: 4,tags:[" 4","sphere","marble",""]}, {id: 5,tags:[" 5","sphere","stone or marble",""]}, {id: 6,tags:[" 6","sphere","limestone",""]}, {id: 7,tags:[" 7","sphere","pietra dolce de Siracusa",""]}, {id: 8,tags:[" 8","sphere","stone","1st cent. CE"]}, {id: 9,tags:[" 9","sphere","limestone","1st cent. CE"]}, {id: 10,tags:[" 10","sphere","marble",""]}, {id: 11,tags:[" 11","sphere","marble",""]}, {id: 12,tags:[" 12","sphere","marble",""]}, {id: 13,tags:[" 13","sphere","travertine",""]}, {id: 14,tags:[" 14","sphere","travertine",""]}, {id: 15,tags:[" 15","sphere","Null",""]}, {id: 16,tags:[" 16","sphere","Null",""]}, {id: 17,tags:["17","sphere","marble",""]}, {id: 18,tags:[" 18","sphere","limestone",""]}, {id: 19,tags:[" 19","sphere","marble",""]}]
-    var xf = crossfilter(crossdata);
-    var tags = xf.dimension(function(d) {
-    return d.tags
-    });
+
 
 tags.filter(function(d){
 tag=d.indexOf(material);
@@ -85,8 +81,24 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-                            //filterMaterial(tag);
-                            
+                            var crossdata = [{id: 1,tags:[" 1","sphere","marble","1st cent. CE"]}, {id: 2,tags:[" 2","sphere","marble","3rd cent. BCE"]}, {id: 3,tags:[" 3","sphere","tufa-like",""]}, {id: 4,tags:[" 4","sphere","marble",""]}, {id: 5,tags:[" 5","sphere","stone or marble",""]}, {id: 6,tags:[" 6","sphere","limestone",""]}, {id: 7,tags:[" 7","sphere","pietra dolce de Siracusa",""]}, {id: 8,tags:[" 8","sphere","stone","1st cent. CE"]}, {id: 9,tags:[" 9","sphere","limestone","1st cent. CE"]}, {id: 10,tags:[" 10","sphere","marble",""]}, {id: 11,tags:[" 11","sphere","marble",""]}, {id: 12,tags:[" 12","sphere","marble",""]}, {id: 13,tags:[" 13","sphere","travertine",""]}, {id: 14,tags:[" 14","sphere","travertine",""]}, {id: 15,tags:[" 15","sphere","Null",""]}, {id: 16,tags:[" 16","sphere","Null",""]}, {id: 17,tags:["17","sphere","marble",""]}, {id: 18,tags:[" 18","sphere","limestone",""]}, {id: 19,tags:[" 19","sphere","marble",""]}]
+                            var xf = crossfilter(crossdata);
+                            var tags = xf.dimension(function(d) {
+                            return d.tags
+                             });
+                             if(tag==2)
+                {	
+		//filtMat=true;
+		document.getElementById('material').innerHTML = filtMat;
+	        //return true;
+                };
+    
+                             if(tag!=2)
+                {
+	        //filtMat=false;
+	        document.getElementById('material').innerHTML = filtMat;
+	        //return tue;
+                };
 })
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
@@ -95,27 +107,4 @@ var rect = valgroup.selectAll("rect")
 
 return material;
 };
-
-/*function filterMaterial()
-{
-
-        if(tag == 2) 
-    {	
-		filtMat=true;
-		document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return true;
-    };
-    
-         if(tag!=2)
-    {
-	        filtMat=false;
-	        document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return tue;
-    };	
-	
-	
-};*/
-
-
-
 
