@@ -118,8 +118,8 @@ function filterung()
 	
 tags.filter(function(d) {
 	alert("hier");
-}
 });
+};
 
 };
 
