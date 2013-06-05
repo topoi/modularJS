@@ -81,33 +81,8 @@ var rect = valgroup.selectAll("rect")
                             filterung();
                             
                             }
-                            
-                           /* ,tags.filter(function(d){
-                            	tag=d.indexOf(material);
-                            	
-                            	alert("tag "+tag);
-                            })*/
-                            
-                          
-                
-                
-		/*//filtMat=true;
-		document.getElementById('material').innerHTML = true;
-	        //return true;
-                };
-    
-                             if(tag!=2)
-                {
-	        //filtMat=false;
-	        document.getElementById('material').innerHTML = false;
-	        //return tue;
-                };*/
+                 
 )
-/*.on("click", {tags.filter(function (d){
-                            	tag=d.indexOf(material);
-                            	alert("tag "+tag+" und material: "+material);
-                            })})*/
-
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
@@ -118,7 +93,7 @@ function filterung()
 	tags.filter(function(d) {
 		
 	tag=d.indexOf(material);
-	alert("hier");
+	alert("hier "+material);
 });
 
 };
