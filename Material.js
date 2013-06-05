@@ -1,7 +1,5 @@
 function filterMaterial()
-{
-
-	if(tag == 2) 
+{if(tag == 2) 
     {	
 		filtMat=true;
 		document.getElementById('filterMaterial').innerHTML = filtMat;
