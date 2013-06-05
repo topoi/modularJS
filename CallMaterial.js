@@ -5,10 +5,6 @@ function callMaterial(material,d)
 var svg = d3.select("#callMaterial").append("svg:svg");
 activateMat="true";
 
-var tags = xf.dimension(function(d) {
-    return d.tags
-    });
-
 tags.filter(function(d){
 tag=d.indexOf(typ);
 filterMat(material,tag)
