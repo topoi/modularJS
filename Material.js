@@ -81,14 +81,14 @@ var rect = valgroup.selectAll("rect")
                              if(tag==2)
                 {	
 		//filtMat=true;
-		document.getElementById('material').innerHTML = filtMat;
+		document.getElementById('material').innerHTML = true;
 	        //return true;
                 };
     
                              if(tag!=2)
                 {
 	        //filtMat=false;
-	        document.getElementById('material').innerHTML = filtMat;
+	        document.getElementById('material').innerHTML = false;
 	        //return tue;
                 };
 })
