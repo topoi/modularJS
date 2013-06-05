@@ -100,9 +100,8 @@ var rect = valgroup.selectAll("rect")
 	        //return tue;
                 };*/
 )
-.on("click", function(d){
+.on("click", function tags.filter(d){
                             	tag=d.indexOf(material);
-                            	
                             	alert("tag "+tag+" und material: "+material);
                             })
 
