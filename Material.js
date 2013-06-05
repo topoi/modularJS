@@ -80,7 +80,7 @@ var rect = valgroup.selectAll("rect")
                             material=list[d.x]},
                             tags.filter(function(d){
                             	tag=d.indexOf(material);
-                            	//i
+                            	alert("tag");
                             })
                             
                           
