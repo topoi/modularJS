@@ -83,7 +83,7 @@ var rect = valgroup.selectAll("rect")
                             tags.filter(function(d){
                             	tag=d.indexOf(material);
                             	
-                            })
+                            },
                             
                             if(tag==2)
                              {alert("true")}
