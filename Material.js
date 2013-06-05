@@ -116,6 +116,8 @@ var rect = valgroup.selectAll("rect")
 function filterung()
 {
 	tags.filter(function(d) {
+		
+	tag=d.indexOf(material);
 	alert("hier");
 });
 
