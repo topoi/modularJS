@@ -84,7 +84,7 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-                            filterMaterial(tag);
+                            //filterMaterial(tag);
                             
 })
 .attr("x", function(d) { return x(d.x); })
@@ -95,7 +95,7 @@ var rect = valgroup.selectAll("rect")
 return material;
 };
 
-function filterMaterial()
+/*function filterMaterial()
 {
 
         if(tag == 2) 
@@ -113,7 +113,7 @@ function filterMaterial()
     };	
 	
 	
-};
+};*/
 
 
 
