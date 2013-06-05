@@ -73,25 +73,6 @@ tag=d.indexOf(material);
 alert("tag: "+tag);
 
 
-function filterMaterial()
-{
-
-	if(tag == 2) 
-    {	
-		filtMat=true;
-		document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return true;
-    };
-    
-         if(tag!=2)
-    {
-	        filtMat=false;
-	        document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return tue;
-    };	
-	
-	
-};
 
 
 
@@ -103,7 +84,7 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             
-                            filterMaterial();
+                            //filterMaterial();
                             
 })
 .attr("x", function(d) { return x(d.x); })
