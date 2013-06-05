@@ -1,3 +1,25 @@
+function filterMaterial()
+{
+
+	if(tag == 2) 
+    {	
+		filtMat=true;
+		document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return true;
+    };
+    
+         if(tag!=2)
+    {
+	        filtMat=false;
+	        document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return tue;
+    };	
+	
+	
+};
+
+
+
 function materialSelection(material)
 {
 
@@ -73,25 +95,6 @@ tag=d.indexOf(material);
 alert("tag: "+tag);
 
 
-function filterMaterial()
-{
-
-	if(tag == 2) 
-    {	
-		filtMat=true;
-		document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return true;
-    };
-    
-         if(tag!=2)
-    {
-	        filtMat=false;
-	        document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return tue;
-    };	
-	
-	
-};
 
 
 
