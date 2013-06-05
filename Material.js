@@ -79,7 +79,7 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             //tags.filter(d.indexOf(material));
-                            alert("index of material: "+tag);
+                            alert("index of material: "+tag);}
                             if(tag==2)
                 {	
 		//filtMat=true;
