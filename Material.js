@@ -79,8 +79,10 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             
-                            //tags.filter(d.indexOf(material));
-                            }
+                            //(d.indexOf(material));
+                            },
+                            tags.filter(function(d){})
+                            
                             
                           /*  if(tag==2)
                 {	
