@@ -91,9 +91,9 @@ var rect = valgroup.selectAll("rect")
 function filterung()
 {
 	tags.filter(function(d) {
-		
 	tag=d.indexOf(material);
-	alert("hier "+material);
+	if(tag==2) {
+	alert("hier "+material)};
 });
 
 };
