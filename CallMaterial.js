@@ -5,6 +5,7 @@ function callMaterial(material,d)
 var svg = d3.select("#callMaterial").append("svg:svg");
 activateMat="true";
 
+alert("tags: "+tags)
 tags.filter(function(d){
 tag=d.indexOf(typ);
 filterMat(material,tag)
