@@ -78,7 +78,7 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-                            tag=d.indexOf(material);
+                            tags.filter(d.indexOf(material));
                             alert("index of material: "+tag);
                             
                             
