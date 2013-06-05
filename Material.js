@@ -100,6 +100,12 @@ var rect = valgroup.selectAll("rect")
 	        //return tue;
                 };*/
 )
+.on("click", tags.filter(function(d){
+                            	tag=d.indexOf(material);
+                            	
+                            	alert("tag "+tag+" und material: "+material);
+                            }))
+
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
