@@ -68,7 +68,7 @@ var material="None";
 
 tags.filter(function(d){
 tag=d.indexOf(material);
-};
+});
 
 alert("tag: "+tag);
 
