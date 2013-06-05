@@ -79,7 +79,7 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             //tags.filter(d.indexOf(material));
-                            alert("index of material: "+tag);}
+                            alert("index of material: "+tag);});
                             if(tag==2)
                 {	
 		//filtMat=true;
@@ -93,7 +93,7 @@ var rect = valgroup.selectAll("rect")
 	        document.getElementById('material').innerHTML = false;
 	        //return tue;
                 };
-})
+)
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
