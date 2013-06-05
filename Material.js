@@ -85,8 +85,7 @@ var rect = valgroup.selectAll("rect")
                             	
                             },
                             
-                            if(tag==2)
-                             {alert("true")}
+                          
                 
                 
 		/*//filtMat=true;
@@ -105,6 +104,8 @@ var rect = valgroup.selectAll("rect")
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
 .attr("height", function(d) { return y(d.y); })
 .attr("width", x.rangeBand());
+
+if(tag==2) {alert("true")};
 
 return material;
 };
