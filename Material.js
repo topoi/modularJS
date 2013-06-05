@@ -71,7 +71,7 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-			    callMaterial(material, tags);
+			    callMaterial(material, tag);
 			    
     })
 .attr("x", function(d) { return x(d.x); })
