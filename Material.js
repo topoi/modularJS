@@ -93,7 +93,10 @@ function filterung()
 	tags.filter(function(d) {
 	tag=d.indexOf(material);
 	if(tag==2) {
-	alert("hier "+material)};
+	alert("true "+material)};
+	if(tag!=2) {
+	alert("false "+material)};
+	
 });
 
 };
