@@ -82,7 +82,7 @@ var rect = valgroup.selectAll("rect")
                             },
                             tags.filter(function(d){
                             	tag=d.indexOf(material);
-                            	
+                            	if(tag==2) {alert("true")};
                             }
                             
                           
@@ -105,8 +105,8 @@ var rect = valgroup.selectAll("rect")
 .attr("height", function(d) { return y(d.y); })
 .attr("width", x.rangeBand());
 
-if(tag==2) {alert("true")};
 
 return material;
+
 };
 
