@@ -113,16 +113,13 @@ var rect = valgroup.selectAll("rect")
 .attr("height", function(d) { return y(d.y); })
 .attr("width", x.rangeBand());
 
-function filterung()
+function filterung()
 {
-	
-tags.filter(function(d) {
+	tags.filter(function(d) {
 	alert("hier");
 });
 
 };
-
-
 };
 
 
