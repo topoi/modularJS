@@ -78,10 +78,12 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-                            
-                            //(d.indexOf(material));
+                            ;
                             },
-                            tags.filter(function(d){})
+                            tags.filter(function(d){
+                            	tag=d.indexOf(material);
+                            	
+                            })
                             
                             
                           /*  if(tag==2)
