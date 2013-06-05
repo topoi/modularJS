@@ -79,7 +79,6 @@ var rect = valgroup.selectAll("rect")
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x];
                             filterung();
-                            gordon
                             }
                  
 )
