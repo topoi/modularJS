@@ -66,14 +66,6 @@ var label = svg.selectAll("text")
 
 var material="None";
 
-
-
-tags.filter(function(d){
-tag=d.indexOf(material);
-});
-
-alert("tag: "+tag);
-
 // Add a rect for each date.
 var rect = valgroup.selectAll("rect")
 .data(function(d){return d;})
