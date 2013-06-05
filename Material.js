@@ -75,12 +75,12 @@ var tags = xf.dimension(function(d) {
 var rect = valgroup.selectAll("rect")
 .data(function(d){return d;})
 .enter().append("svg:rect")
-.on("click", tags.filter(function  (d)  {
+.on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
                             
                             //tags.filter(d.indexOf(material));
-                            })
+                            }
                             
                           /*  if(tag==2)
                 {	
