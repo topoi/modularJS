@@ -119,7 +119,7 @@ tags.filter( function(d) {
 	
 alert("hier");
 }
-};
+});
 
 return material;
 };
