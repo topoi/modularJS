@@ -1,23 +1,3 @@
-function filterMaterial()
-{if(tag == 2) 
-    {	
-		filtMat=true;
-		document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return true;
-    };
-    
-         if(tag!=2)
-    {
-	        filtMat=false;
-	        document.getElementById('filterMaterial').innerHTML = filtMat;
-	        return tue;
-    };	
-	
-	
-};
-
-
-
 function materialSelection(material)
 {
 
@@ -104,7 +84,7 @@ var rect = valgroup.selectAll("rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
                             material=list[d.x]; 
-                            filterMaterial();
+                            filterMaterial(tag);
                             
 })
 .attr("x", function(d) { return x(d.x); })
@@ -114,3 +94,27 @@ var rect = valgroup.selectAll("rect")
 
 return material;
 };
+
+function filterMaterial()
+{
+
+        if(tag == 2) 
+    {	
+		filtMat=true;
+		document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return true;
+    };
+    
+         if(tag!=2)
+    {
+	        filtMat=false;
+	        document.getElementById('filterMaterial').innerHTML = filtMat;
+	        return tue;
+    };	
+	
+	
+};
+
+
+
+
