@@ -80,7 +80,7 @@ var rect = valgroup.selectAll("rect")
                             material=list[d.x]; 
                             
                             //tags.filter(d.indexOf(material));
-                            });
+                            })
                             
                             if(tag==2)
                 {	
