@@ -115,12 +115,11 @@ var rect = valgroup.selectAll("rect")
 
 function filterung()
 {
-tags.filter( function(d) {	
 	
-alert("hier");
+tags.filter(function(d) {
+	alert("hier");
 }
 });
 
-return material;
 };
 
