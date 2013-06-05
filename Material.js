@@ -82,7 +82,7 @@ var rect = valgroup.selectAll("rect")
                             //tags.filter(d.indexOf(material));
                             })
                             
-                            if(tag==2)
+                          /*  if(tag==2)
                 {	
 		//filtMat=true;
 		document.getElementById('material').innerHTML = true;
@@ -94,7 +94,7 @@ var rect = valgroup.selectAll("rect")
 	        //filtMat=false;
 	        document.getElementById('material').innerHTML = false;
 	        //return tue;
-                };
+                };*/
 )
 .attr("x", function(d) { return x(d.x); })
 .attr("y", function(d) { return -y(d.y0) - y(d.y); })
