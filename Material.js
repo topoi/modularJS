@@ -77,12 +77,13 @@ var rect = valgroup.selectAll("rect")
 .enter().append("svg:rect")
 .on("click", function  (d)  {
 			    alert("du hast "+list[d.x]+" geklickt"); 
-                            material=list[d.x]},
-                            tags.filter(function(d){
+                            material=list[d.x]}
+                            
+                           /* ,tags.filter(function(d){
                             	tag=d.indexOf(material);
                             	
                             	alert("tag "+tag);
-                            })
+                            })*/
                             
                           
                 
